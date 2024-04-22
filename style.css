@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 50%;
+    margin: 0;
+    background: #232121;
+}
+
+.box{
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ccc;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 14em;
+    box-shadow: 5px 5px 50px 50px rgba(252, 5, 5, 0.699);
+    animation: animatebg 5s linear infinite;
+}
+
+
+#entrada_de_tarefa {
+    padding: 8px;
+    border-radius: 14em;
+}
+
+button {
+    padding: 8px 45px;
+    cursor: pointer;
+    border-radius: 14em;
+}
+
+li {
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.delete {
+    margin-left: 10px;
+    padding: 2px 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff4444;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: #cc0000;
+}
